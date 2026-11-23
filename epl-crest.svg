@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440">
+  <!-- Shield -->
+  <path d="M40 30 H360 V215 C360 320 280 385 200 415 C120 385 40 320 40 215 Z" fill="#2A0F33" stroke="#00E5A0" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M62 52 H338 V213 C338 305 268 362 200 390 C132 362 62 305 62 213 Z" fill="none" stroke="#E9A93C" stroke-width="3" opacity="0.8"/>
+  <g transform="translate(36 50) scale(0.8)">
+    <!-- Mane, back layer -->
+    <path fill="#B8641C" d="M168 66 L214 30 L236 74 L288 48 L292 98 L350 88 L332 138 L382 156 L342 190 L384 232 L336 246 L362 294 L308 292 L314 344 L266 320 L250 368 L222 330 L186 362 L176 318 L146 300 L136 210 L144 132 Z"/>
+    <!-- Mane, front layer -->
+    <path fill="#E9A93C" d="M172 84 L212 58 L228 96 L272 78 L272 118 L320 116 L304 152 L346 172 L310 196 L344 230 L302 240 L320 280 L278 276 L278 316 L244 296 L228 334 L206 300 L176 314 L170 284 L150 270 L146 200 L150 136 Z"/>
+    <!-- Mane highlight streaks -->
+    <path fill="#F5C66A" d="M214 112 L250 104 L232 140 Z M238 168 L290 170 L250 190 Z M236 222 L286 244 L240 246 Z M214 262 L236 292 L208 284 Z"/>
+    <!-- Ear -->
+    <path fill="#F2CF84" d="M172 104 L196 78 L204 120 Z"/>
+    <path fill="#B8641C" d="M180 104 L194 90 L197 114 Z"/>
+    <!-- Head -->
+    <path fill="#F7D98F" d="M164 104 L122 128 L98 164 L70 184 L72 202 L86 212 L106 216 L100 236 L130 252 L176 246 L196 206 L192 146 Z"/>
+    <!-- Face shading facets -->
+    <path fill="#EDC273" d="M98 164 L136 160 L124 214 L106 216 L86 212 L72 202 L70 184 Z"/>
+    <path fill="#E3B05E" d="M124 214 L160 196 L196 206 L176 246 L130 252 L100 236 L106 216 Z"/>
+    <path fill="#FBE4AA" d="M164 104 L192 146 L160 150 L122 128 Z"/>
+    <!-- Brow -->
+    <path fill="#C98A3A" d="M112 140 L152 128 L150 140 L118 148 Z"/>
+    <!-- Eye -->
+    <path fill="#00E5A0" d="M118 152 L136 144 L148 152 L134 158 Z"/>
+    <circle cx="136" cy="151" r="3.2" fill="#2A0F33"/>
+    <!-- Nose and mouth -->
+    <path fill="#3D1A4A" d="M64 180 L80 176 L80 194 L66 192 Z"/>
+    <path d="M84 212 L116 216 L104 234" fill="none" stroke="#3D1A4A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Whisker dots -->
+    <circle cx="96" cy="196" r="2.4" fill="#C98A3A"/><circle cx="106" cy="200" r="2.4" fill="#C98A3A"/><circle cx="100" cy="186" r="2.4" fill="#C98A3A"/>
+  </g>
+</svg>

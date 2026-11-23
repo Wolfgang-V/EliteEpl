@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* League brand colours and fonts → classes like bg-ink, text-mint, font-display */
+@theme {
+  --color-ink: #2a0f33;
+  --color-plum: #3d1a4a;
+  --color-mint: #00e5a0;
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+  --font-display: Anton, Impact, sans-serif;
+}
