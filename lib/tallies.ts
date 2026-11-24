@@ -28,9 +28,9 @@ export const TALLIES: Tally[] = [
   { club: "BAR", name: "Taiwo", yellows: 1 },
 
   // Liverpool
-  { club: "LIV", name: "Damlarhk", goals: 4, assists: 1 },
+  { club: "LIV", name: "Darmlarhk", goals: 4, assists: 1 },
   { club: "LIV", name: "Flawless", goals: 1 },
-  { club: "LIV", name: "Beejay", assists: 3 },
+  { club: "LIV", name: "Beejayy", assists: 3 },
   { club: "LIV", name: "Ori Owo", assists: 1 },
 
   // Bayern

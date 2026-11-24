@@ -14,7 +14,7 @@ insert into matches (matchday_id, round, leg, home_team_id, away_team_id, home_s
   ((select id from matchdays where number=1), 1, 1, (select id from teams where short_name='MUN'), (select id from teams where short_name='MCI'), 2, 2, 'played'),
   ((select id from matchdays where number=1), 1, 1, (select id from teams where short_name='ARS'), (select id from teams where short_name='RMA'), 3, 1, 'played'),
   ((select id from matchdays where number=1), 1, 1, (select id from teams where short_name='CHE'), (select id from teams where short_name='BAR'), 0, 1, 'played'),
-  ((select id from matchdays where number=1), 1, 1, (select id from teams where short_name='LIV'), (select id from teams where short_name='BAY'), 2, 0, 'played'),
+  ((select id from matchdays where number=1), 1, 1, (select id from teams where short_name='LIV'), (select id from teams where short_name='BAY'), 0, 2, 'played'),
   ((select id from matchdays where number=1), 2, 1, (select id from teams where short_name='MUN'), (select id from teams where short_name='RMA'), 0, 1, 'played'),
   ((select id from matchdays where number=1), 2, 1, (select id from teams where short_name='MCI'), (select id from teams where short_name='BAR'), 2, 1, 'played'),
   ((select id from matchdays where number=1), 2, 1, (select id from teams where short_name='ARS'), (select id from teams where short_name='BAY'), 3, 2, 'played'),

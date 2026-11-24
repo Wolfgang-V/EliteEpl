@@ -27,6 +27,14 @@ const photos: Record<string, { src: string; position?: string }> = {
   "CHE:muller": { src: "/players/che-muller.jpg", position: "50% 0%" },
   "CHE:oju": { src: "/players/che-oju.jpg", position: "50% 0%" },
   "CHE:opeyemi": { src: "/players/che-opeyemi.jpg", position: "50% 35%" },
+
+  "LIV:d pepe": { src: "/players/liv-d-pepe.jpg", position: "50% 20%" },
+  "LIV:darmlarhk": { src: "/players/liv-darmlarhk.jpg", position: "50% 0%" },
+  "LIV:flawless": { src: "/players/liv-flawless.jpg", position: "50% 0%" },
+  "LIV:beejayy": { src: "/players/liv-beejayy.jpg", position: "50% 0%" },
+  "LIV:justmind": { src: "/players/liv-justmind.jpg", position: "50% 65%" },
+  "LIV:slim": { src: "/players/liv-slim.jpg", position: "50% 0%" },
+  "LIV:shk": { src: "/players/liv-shk.jpg", position: "50% 25%" },
 };
 
 export function photoFor(club: string | null | undefined, name: string) {
