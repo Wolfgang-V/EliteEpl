@@ -30,7 +30,7 @@ export default async function StadiumPage() {
       {/* Hero */}
       <section className="relative overflow-hidden rounded-2xl bg-ink text-white shadow-sm">
         <img src="/stadium/match.jpg" alt="" aria-hidden className="absolute inset-0 size-full object-cover" />
-        <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-ink/10" />
+        <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-ink via-ink/75 to-ink/20" />
         <div className="relative flex min-h-[320px] flex-col justify-end p-6 sm:min-h-[420px] sm:p-10">
           <span className="text-xs font-bold uppercase tracking-[0.2em] text-mint">Home of the Elite Premier League</span>
           <h1 className="mt-2 font-display text-5xl uppercase sm:text-7xl">{VENUE}</h1>
@@ -42,7 +42,7 @@ export default async function StadiumPage() {
 
       <div className="grid gap-6 lg:grid-cols-[1fr_340px]">
         {/* Gallery */}
-        <section className="space-y-3">
+        <section className="order-2 space-y-3 lg:order-none">
           <h2 className="font-display text-2xl uppercase text-ink">Gallery</h2>
           <div className="grid gap-3 sm:grid-cols-2">
             {photos.map((p, i) => (
@@ -61,7 +61,7 @@ export default async function StadiumPage() {
           </div>
         </section>
 
-        <aside className="space-y-6">
+        <aside className="order-1 space-y-6 lg:order-none">
           {/* Next matchday at the venue */}
           {nextDay && (
             <section className="rounded-2xl bg-ink p-5 text-white shadow-sm">

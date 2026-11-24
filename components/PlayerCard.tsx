@@ -37,7 +37,7 @@ export default function PlayerCard({
         style={{ background: `linear-gradient(160deg, ${colour} 0%, ${colour} 45%, #2a0f33 140%)` }}
       >
         <span
-          className="absolute right-3 top-1 z-10 font-display text-7xl leading-none opacity-25"
+          className="absolute right-2 top-1 z-10 font-display text-6xl leading-none opacity-25 sm:right-3 sm:text-7xl"
           style={{ color: ink }}
         >
           {player.shirt_number ?? ""}
@@ -65,10 +65,10 @@ export default function PlayerCard({
       </div>
 
       {/* Name and season stats */}
-      <div className="px-4 pb-4 pt-3">
-        <div className="flex items-baseline gap-2">
-          <span className="font-display text-2xl text-zinc-400">{player.shirt_number ?? "–"}</span>
-          <h3 className="truncate text-lg font-extrabold text-ink">{player.name}</h3>
+      <div className="px-3 pb-3 pt-3 sm:px-4 sm:pb-4">
+        <div className="flex items-baseline gap-1.5 sm:gap-2">
+          <span className="font-display text-xl text-zinc-400 sm:text-2xl">{player.shirt_number ?? "–"}</span>
+          <h3 className="line-clamp-2 break-words text-base font-extrabold leading-tight text-ink sm:text-lg">{player.name}</h3>
         </div>
         <p className="text-xs font-semibold text-zinc-500">
           {player.position ? positionNames[player.position] : "Player"}
@@ -82,7 +82,7 @@ export default function PlayerCard({
           ].map(([label, value]) => (
             <div key={label}>
               <dd className="text-lg font-extrabold text-ink">{value}</dd>
-              <dt className="text-[10px] font-bold uppercase tracking-wider text-zinc-500">{label}</dt>
+              <dt className="text-[9px] font-bold uppercase tracking-wide text-zinc-500 sm:text-[10px] sm:tracking-wider">{label}</dt>
             </div>
           ))}
         </dl>

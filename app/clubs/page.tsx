@@ -31,14 +31,14 @@ export default async function ClubsPage() {
 
       {squads.map(({ team, players }) => (
         <section key={team.id} id={team.short_name.toLowerCase()} className="scroll-mt-4 space-y-4">
-          <h2 className="flex items-center gap-3 font-display text-2xl uppercase text-ink">
+          <h2 className="flex items-center gap-3 font-display text-xl uppercase text-ink sm:text-2xl">
             <Badge team={team} size={36} />
             {team.name}
             <span className="ml-auto font-sans text-sm font-semibold normal-case text-zinc-500">
               {players.length} players
             </span>
           </h2>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-4">
             {players.map((p) => (
               <PlayerCard key={p.id} player={p} team={team} stats={stats[p.id]} />
             ))}

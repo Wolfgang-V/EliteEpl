@@ -35,7 +35,10 @@ export default async function Home() {
                   {nextDay.date && <Countdown date={nextDay.date} />}
                 </div>
                 <h1 className="mt-2 font-display text-4xl uppercase sm:text-5xl">Matchday {nextDay.number}</h1>
-                <p className="mt-1 font-semibold text-white/75">{longDate(nextDay.date)} · First kick-off {kickoffTime(0)} · {VENUE}</p>
+                <p className="mt-1 font-semibold text-white/85">{longDate(nextDay.date)}</p>
+                <p className="text-sm font-semibold text-white/65">
+                  First kick-off {kickoffTime(0)} · {VENUE}
+                </p>
               </div>
             </div>
             <Rounds matches={nextMatches} />

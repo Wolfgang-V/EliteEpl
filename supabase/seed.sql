@@ -5,7 +5,7 @@ insert into seasons (name, start_date) values ('Season 1', '2026-10-31');
 
 insert into matchdays (season_id, number, date) values
   ((select id from seasons where name='Season 1'), 1, '2026-10-31'),
-  ((select id from seasons where name='Season 1'), 2, '2026-11-21'),
+  ((select id from seasons where name='Season 1'), 2, '2026-11-28'),
   ((select id from seasons where name='Season 1'), 3, '2026-12-19'),
   ((select id from seasons where name='Season 1'), 4, '2027-01-23'),
   ((select id from seasons where name='Season 1'), 5, '2027-02-20');

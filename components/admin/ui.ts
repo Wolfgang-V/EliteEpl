@@ -1,6 +1,6 @@
 // Shared styles for the admin forms
 export const input =
-  "w-full rounded-lg border border-zinc-300 bg-white px-3 py-2.5 text-sm focus:border-ink focus:outline-none focus:ring-2 focus:ring-mint/50";
+  "w-full rounded-lg border border-zinc-300 bg-white px-3 py-2.5 text-base sm:text-sm focus:border-ink focus:outline-none focus:ring-2 focus:ring-mint/50";
 
 export const button =
   "rounded-lg bg-ink px-4 py-2.5 text-sm font-bold text-white transition hover:bg-plum disabled:opacity-50";
