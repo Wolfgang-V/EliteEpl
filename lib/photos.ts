@@ -17,6 +17,16 @@ const photos: Record<string, { src: string; position?: string }> = {
   "MCI:gucci": { src: "/players/mci-gucci.jpg", position: "50% 30%" },
   "MCI:cash": { src: "/players/mci-cash.jpg", position: "50% 95%" },
   "MCI:wolfgang": { src: "/players/mci-wolfgang.jpg", position: "50% 0%" },
+
+  "CHE:mc elerin": { src: "/players/che-mc-elerin.jpg", position: "50% 10%" },
+  "CHE:xammie": { src: "/players/che-xammie.jpg", position: "50% 50%" },
+  "CHE:radab": { src: "/players/che-radab.jpg", position: "50% 60%" },
+  "CHE:adetiger": { src: "/players/che-adetiger.jpg", position: "50% 30%" },
+  "CHE:kay": { src: "/players/che-kay.jpg", position: "50% 10%" },
+  "CHE:walexzy": { src: "/players/che-walexzy.jpg", position: "50% 0%" },
+  "CHE:muller": { src: "/players/che-muller.jpg", position: "50% 0%" },
+  "CHE:oju": { src: "/players/che-oju.jpg", position: "50% 0%" },
+  "CHE:opeyemi": { src: "/players/che-opeyemi.jpg", position: "50% 35%" },
 };
 
 export function photoFor(club: string | null | undefined, name: string) {

@@ -48,7 +48,8 @@ export const TALLIES: Tally[] = [
   { club: "CHE", name: "Oju", goals: 1, assists: 2 },
   { club: "CHE", name: "Muller", goals: 1, assists: 1 },
   { club: "CHE", name: "Walexzy", goals: 1, assists: 1 },
-  { club: "CHE", name: "Ope", goals: 1, assists: 1 },
+  { club: "CHE", name: "Opeyemi", goals: 1, assists: 1 }, // "Ope" on the G/A chart
+  { club: "CHE", name: "Kay", goals: 2, assists: 1 }, // listed under "scored on loan"
   { club: "CHE", name: "Sam", yellows: 1, finePaid: true },
 
   // Arsenal
@@ -66,7 +67,4 @@ export const TALLIES: Tally[] = [
   { club: "MCI", name: "Fawazzy", goals: 1 },
   { club: "MCI", name: "Wolfgang", yellows: 1 },
   { club: "MCI", name: "City keeper", yellows: 1 },
-
-  // On loan
-  { club: null, name: "Kay", goals: 2, assists: 1 },
 ];
